@@ -1,0 +1,12 @@
+[
+  {
+    "id": 1,
+    "title": "Dashboard customization released",
+    "version": "3.4.0"
+  },
+  {
+    "id": 2,
+    "title": "Email notifications added",
+    "version": "3.4.1"
+  }
+]
