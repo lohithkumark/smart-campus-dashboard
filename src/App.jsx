@@ -3,7 +3,7 @@ import Sidebar from './components/Sidebar'
 import DashboardHome from './components/DashboardHome'
 import ReleaseUpdates from './components/ReleaseUpdates'
 import DeviceCharts from './components/DeviceCharts'
-import BuildingMap from './components/BuildingMap'
+// import BuildingMap from './components/BuildingMap'
 import './App.css'
 
 export default function App() {
@@ -36,7 +36,7 @@ export default function App() {
 
         {activePage === 'analytics' && <DeviceCharts />}
 
-        {activePage === 'map' && <BuildingMap />}
+        {activePage === 'map' && <h2>Map module coming soon...</h2>}
 
         <footer>
           Built by Lohith Kumar using React + Vite
